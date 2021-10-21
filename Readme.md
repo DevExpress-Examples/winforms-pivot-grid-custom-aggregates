@@ -5,6 +5,9 @@
 <!-- default badges end -->
 
 # Pivot Grid for WinForms - How to Aggregate Data by the Field's First Value
+
+This example shows how to aggregate data by the field's first value.
+
 <!-- default file list -->
 ## Files to look at
 
