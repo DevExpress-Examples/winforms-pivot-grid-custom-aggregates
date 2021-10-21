@@ -5,14 +5,16 @@ using System;
 using System.Collections.Generic;
 
 namespace Dashboard_FirstValueAggregate {
-    class FirstValueAggregateFunction : ICustomAggregateFunction, ICustomFunctionOperatorBrowsable, ICustomFunctionCategory {
+    class FirstValueAggregateFunction : ICustomAggregateFunction, ICustomFunctionOperatorBrowsable,
+        ICustomFunctionCategory {
         public string Name => "FirstValue";
 
         public int MinOperandCount => 1;
 
         public int MaxOperandCount => 1;
 
-        public string Description => "Aggregates data by input value, and displays the first value of the field";
+        public string Description => @"Aggregates data by input value, 
+            and displays the first value of the field";
 
         public FunctionCategory Category => DevExpress.Data.Filtering.FunctionCategory.Text;
 
@@ -39,14 +41,13 @@ namespace Dashboard_FirstValueAggregate {
         }
     }
 
-    class FirstValueAggregateState<TInput> : ICustomAggregateFunctionContext<TInput, TInput> {
+    class FirstValueAggregateState<TInput> : ICustomAggregateFunctionContext<TInput, 
+        TInput> {
         bool isSet = false;
         TInput firstValue;
-
         public TInput GetResult() {
             return isSet ? firstValue : default(TInput);
         }
-
         public void Process(TInput value) {
             if(!isSet) {
                 firstValue = value;
