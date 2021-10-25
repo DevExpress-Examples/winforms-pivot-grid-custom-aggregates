@@ -15,8 +15,8 @@ namespace WinPivot_CustomFunctions {
             PivotGridField pivotGridField1 = new PivotGridField() {
                 Area = PivotArea.DataArea,
                 AreaIndex = 0,
-                Caption = "First Sold Product",
-                FieldName = "FirstSoldProduct"
+                Caption = "First Product Sold",
+                FieldName = "FirstProductSold"
             };
             pivotGridControl1.Fields.Add(pivotGridField1);
             pivotGridField1.DataBinding = new ExpressionDataBinding() { Expression = "FirstValue([ProductName])" };
