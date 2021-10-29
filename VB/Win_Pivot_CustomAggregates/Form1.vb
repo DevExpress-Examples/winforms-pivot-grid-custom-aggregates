@@ -1,5 +1,4 @@
 ﻿Imports DevExpress.XtraPivotGrid
-Imports System.Windows.Forms
 
 Namespace WinPivot_CustomFunctions
 	Partial Public Class Form1

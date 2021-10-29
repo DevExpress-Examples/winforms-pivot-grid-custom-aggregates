@@ -1,10 +1,8 @@
 ﻿Imports DevExpress.Data.Filtering
 Imports DevExpress.DataAccess.ExpressionEditor
 Imports DevExpress.DataProcessing.Criteria
-Imports System
-Imports System.Collections.Generic
 
-Namespace Dashboard_FirstValueAggregate
+Namespace FirstValueAggregate
 	Friend Class FirstValueAggregateFunction
 		Implements ICustomAggregateFunction, ICustomFunctionOperatorBrowsable, ICustomFunctionCategory
 

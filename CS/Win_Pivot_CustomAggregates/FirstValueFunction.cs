@@ -4,7 +4,7 @@ using DevExpress.DataProcessing.Criteria;
 using System;
 using System.Collections.Generic;
 
-namespace Dashboard_FirstValueAggregate {
+namespace FirstValueAggregate {
     class FirstValueAggregateFunction : ICustomAggregateFunction, ICustomFunctionOperatorBrowsable,
         ICustomFunctionCategory {
         public string Name => "FirstValue";
