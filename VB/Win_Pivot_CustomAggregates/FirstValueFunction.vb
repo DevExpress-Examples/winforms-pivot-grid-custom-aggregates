@@ -26,7 +26,7 @@ Namespace FirstValueAggregate
 
 		Public ReadOnly Property Description() As String Implements ICustomFunctionOperatorBrowsable.Description
 			Get
-				Return "Aggregates data by input value, and displays the first value of the field"
+			Return "Displays the first value of the field"
 			End Get
 		End Property
 
