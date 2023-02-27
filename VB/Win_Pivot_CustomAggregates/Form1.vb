@@ -20,7 +20,7 @@ Namespace WinPivot_CustomFunctions
             }
             pivotGridControl1.Fields.Add(pivotGridField1)
             pivotGridField1.DataBinding = New ExpressionDataBinding() With {.Expression = "FirstValue([ProductName])"}
-            pivotGridField1.Options.ShowExpressionEditorMenu = True
+            pivotGridField1.Options.ShowUnboundExpressionMenu = True
             pivotGridField1.Options.ShowGrandTotal = False
         End Sub
     End Class
