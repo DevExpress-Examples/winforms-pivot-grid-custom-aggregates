@@ -21,7 +21,7 @@ namespace WinPivot_CustomFunctions {
             pivotGridControl1.Fields.Add(pivotGridField1);
             pivotGridField1.DataBinding = new ExpressionDataBinding() { 
                 Expression = "FirstValue([ProductName])" };
-            pivotGridField1.Options.ShowUnboundExpressionMenu = true;
+            pivotGridField1.Options.ShowExpressionEditorMenu = true;
             pivotGridField1.Options.ShowGrandTotal = false; 
         }      
     }
