@@ -1,4 +1,5 @@
-﻿Imports DevExpress.Data.Filtering
+﻿Imports System
+Imports DevExpress.Data.Filtering
 Imports DevExpress.DataAccess.ExpressionEditor
 Imports DevExpress.DataProcessing.Criteria
 
@@ -26,7 +27,7 @@ Namespace FirstValueAggregate
 
 		Public ReadOnly Property Description() As String Implements ICustomFunctionOperatorBrowsable.Description
 			Get
-			Return "Displays the first value of the field"
+				Return "Displays the first value of the field"
 			End Get
 		End Property
 
