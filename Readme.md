@@ -9,7 +9,7 @@
 This example shows how to aggregate data by the field's first value.
 
 <!-- default file list -->
-## Files to look at
+## Files to Review
 
 * [Form1.cs](./CS/Win_Pivot_CustomAggregates/Form1.cs) (VB: [Form1.vb](./VB/Win_Pivot_CustomAggregates/Form1.vb))
 * [Program.cs](./CS/Win_Pivot_CustomAggregates/Program.cs) (VB: [Program.vb](./VB/Win_Pivot_CustomAggregates/Program.vb))
